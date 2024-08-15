@@ -1,0 +1,12 @@
+cabal-version:      2.4
+name:               tzfe
+version:            0.1.0.0
+
+executable tzfe
+  main-is:          TwentyFortyEight.hs
+  build-depends:    base,
+                    random,
+                    gloss,
+                    mtl
+  hs-source-dirs:   .
+  default-language: GHC2021
